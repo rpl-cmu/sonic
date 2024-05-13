@@ -2,6 +2,8 @@
 
 # "SONIC: Sonar Image Correspondence using Pose Supervised Learning for Imaging Sonars"
 ### "Samiran Gode*, Akshay Hinduja*, Michael Kaess"
+EMail: ahinduja@alumni.cmu.edu, sgode@alumni.cmu.edu 
+
 paperurl: "https://arxiv.org/pdf/2310.15023.pdf"
 
 ## Abstract
@@ -17,7 +19,8 @@ Dataset url: "https://drive.google.com/drive/folders/1ykFXI9AJjrRCmz7MvjdqdCq7e-
 
 ### Demo
 
-Use sonic-list.txt to setup your conda environment.
+Use <b>sonic-list.txt</b> to setup your conda environment.
+
 Please look at the Jupyter notebook in /Jupyter. To run the demo, you will need to download at least SHIP_BPL_H3 sub-dataset and the pair files and place them in the appropriate locations. Convention used in code is "YOUR_DIR_HERE"/logs/pairs...txt and data is placed under the same directory like "YOUR_DIR_HERE"/logs/...
 
 ### Training
