@@ -106,9 +106,9 @@ def generate_query_kpts(img, mode=None, num_pts=None, akaze_pts=None, akaze_supe
     #initialize superpoint
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     try:
-        superpoint = SuperPointFrontend(weights_path='dataloader/superpoint_v1.pth', nms_dist=4, conf_thresh=0.015, nn_thresh=0.7, cuda=torch.cuda.is_available())
+        superpoint = SuperPointFrontend(weights_path='pretrained/superpoint_v1.pth', nms_dist=4, conf_thresh=0.015, nn_thresh=0.7, cuda=torch.cuda.is_available())
     except:
-        superpoint = SuperPointFrontend(weights_path=parent_dir+'/dataloader/superpoint_v1.pth', nms_dist=4, conf_thresh=0.015, nn_thresh=0.7, cuda=False)
+        superpoint = SuperPointFrontend(weights_path=parent_dir+'/pretrained/superpoint_v1.pth', nms_dist=4, conf_thresh=0.015, nn_thresh=0.7, cuda=False)
     #initialize akaze
     a = cv2.AKAZE_create()
 

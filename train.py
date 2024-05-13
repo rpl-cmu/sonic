@@ -73,7 +73,7 @@ def validate_model(model, args, val_log_i, device, val_loader_iterator, criterio
 
 if __name__ == '__main__':
     args = config.get_args()
-    wandb.login(key="your_wandb_key_here")
+    # wandb.login(key="your key here")
     run = wandb.init(
         name=args.exp_name,
         reinit=True,

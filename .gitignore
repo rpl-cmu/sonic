@@ -45,3 +45,4 @@ wandb
 image1.npy
 test/*
 tests/*
+pretrained/*
