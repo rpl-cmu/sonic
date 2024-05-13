@@ -1,4 +1,4 @@
-![Sonic 2](figs/sonic_2.png)
+![Sonic 2](figs/sonic_3.png)
 
 # "SONIC: Sonar Image Correspondence using Pose Supervised Learning for Imaging Sonars"
 ### "Samiran Gode*, Akshay Hinduja*, Michael Kaess"
