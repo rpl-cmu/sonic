@@ -16,6 +16,8 @@ ture-based methods. Our method demonstrates significantly better performance in 
 
 Dataset url: "https://drive.google.com/drive/folders/1ykFXI9AJjrRCmz7MvjdqdCq7e-4Hir-c?usp=sharing"
 
+The <b>pretrained</b> folder has to be downloaded and placed within the SONIC repository for SONIC and superpoint preatrained models. 
+
 ### Demo
 
 Setup conda environment using <b>sonic-list.txt</b>.
