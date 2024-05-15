@@ -3,7 +3,7 @@
 # "SONIC: Sonar Image Correspondence using Pose Supervised Learning for Imaging Sonars"
 ### "Samiran Gode*, Akshay Hinduja*, Michael Kaess"
 
-paperurl: "https://arxiv.org/pdf/2310.15023.pdf"
+paperurl: "https://arxiv.org/pdf/2310.15023v2.pdf"
 
 ### Erratum: Number of training epochs is 7, not 32.  
 
