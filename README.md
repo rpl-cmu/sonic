@@ -5,6 +5,9 @@
 
 paperurl: "https://arxiv.org/pdf/2310.15023v2.pdf"
 
+## UPDATE
+SONIC has a successor in C-SONIC for cross-frequency and range setting correspondence. More at https://github.com/rpl-cmu/c-sonic
+
 ### Erratum: Number of training epochs is 7, not 32.  
 
 ## Abstract
